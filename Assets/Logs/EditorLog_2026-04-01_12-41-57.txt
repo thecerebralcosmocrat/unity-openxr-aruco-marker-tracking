@@ -1,0 +1,7 @@
+Unity Editor session started at 01-04-2026 12:41:57
+
+01-04-2026 12:42:08: [Error] Unable to perform online search:
+  Cannot connect to 'registry.npmjs.org' (error code: ENOTFOUND). Verify your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+

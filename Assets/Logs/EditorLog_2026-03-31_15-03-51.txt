@@ -1,0 +1,108 @@
+Unity Editor session started at 31-03-2026 15:03:51
+
+31-03-2026 15:04:08: [Log] Using OpenXR
+UnityEngine.Debug:Log (object)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:CheckUnityMagicLeapPackage () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:172)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:Refresh () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:103)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:RefreshSteps () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:311)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:OnFocus () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:293)
+UnityEditor.EditorWindow:GetWindow<MagicLeap.SetupTool.Editor.MagicLeapSetupWindow> (bool,string)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:Open () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:321)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:MenuOpen () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:387)
+
+
+31-03-2026 15:04:15: [Warning] Script updater for Library\Bee\artifacts\1900b0aE.dag\Unity.AI.Navigation.dll failed to produce updates.txt file (response file: Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.rsp, MovedFromCache: C:/Users/Atlas/unity-openxr-aruco-marker-tracking/Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll.mvfrm
+
+
+31-03-2026 15:04:15: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(279,49): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:15: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(325,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:15: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(342,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:15: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(344,25): error CS0117: 'NavMesh' does not contain a definition for 'SetLinkOwner'
+
+
+31-03-2026 15:04:15: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(415,26): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:49: [Warning] Script updater for Library\Bee\artifacts\1300b0aE.dag\Unity.AI.Navigation.dll failed to produce updates.txt file (response file: Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.rsp, MovedFromCache: C:/Users/Atlas/unity-openxr-aruco-marker-tracking/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll.mvfrm
+
+
+31-03-2026 15:04:49: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(279,49): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:49: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(325,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:49: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(342,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:04:49: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(344,25): error CS0117: 'NavMesh' does not contain a definition for 'SetLinkOwner'
+
+
+31-03-2026 15:04:49: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(415,26): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:06:46: [Error] Unable to add package [com.magicleap.unitysdk]:
+  An operation that requires exclusive access to a resource ([C:/Users/Atlas/unity-openxr-aruco-marker-tracking/Packages]) is already running and must be completed before another can be started.
+UnityEngine.Debug:LogError (object)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass10_0:<InstallMlsdkPackage>g__AddPackageProgress|0 () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:104)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+31-03-2026 15:06:46: [Error] Failed to import com.magicleap.unitysdk.
+UnityEngine.Debug:LogError (object)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep/<AddRegistryAndImport>d__80:MoveNext () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:634)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:SetResult (bool)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<InstallSdkPackage>d__7:MoveNext () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:60)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult (bool)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass7_0:<InstallSdkPackage>b__0 (bool) (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:57)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass10_0:<InstallMlsdkPackage>g__AddPackageProgress|0 () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:107)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+31-03-2026 15:07:05: [Error] Unable to add package [com.magicleap.unitysdk]:
+  An operation that requires exclusive access to a resource ([C:/Users/Atlas/unity-openxr-aruco-marker-tracking/Packages]) is already running and must be completed before another can be started.
+UnityEngine.Debug:LogError (object)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass10_0:<InstallMlsdkPackage>g__AddPackageProgress|0 () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:104)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+31-03-2026 15:07:05: [Error] Failed to import com.magicleap.unitysdk.
+UnityEngine.Debug:LogError (object)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep/<AddRegistryAndImport>d__80:MoveNext () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:634)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:SetResult (bool)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<InstallSdkPackage>d__7:MoveNext () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:60)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:SetResult (bool)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass7_0:<InstallSdkPackage>b__0 (bool) (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:57)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter/<>c__DisplayClass10_0:<InstallMlsdkPackage>g__AddPackageProgress|0 () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:107)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+31-03-2026 15:07:31: [Warning] Script updater for Library\Bee\artifacts\1300b0aE.dag\Unity.AI.Navigation.dll failed to produce updates.txt file (response file: Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.rsp, MovedFromCache: C:/Users/Atlas/unity-openxr-aruco-marker-tracking/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll.mvfrm
+
+
+31-03-2026 15:07:31: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(279,49): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:07:31: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(325,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:07:31: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(342,25): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:07:31: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(344,25): error CS0117: 'NavMesh' does not contain a definition for 'SetLinkOwner'
+
+
+31-03-2026 15:07:31: [Error] Library\PackageCache\com.unity.ai.navigation@2.0.0\Runtime\NavMeshLink.cs(415,26): error CS0117: 'NavMesh' does not contain a definition for 'IsLinkValid'
+
+
+31-03-2026 15:07:55: [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/editorlog_2026-03-31_15-03-51.txt in SourceAssetDB has modification time of '2026-03-31T09:37:05.6897984Z' while content on disk has modification time of '2026-03-31T09:37:31.6950535Z'
+
+
+
